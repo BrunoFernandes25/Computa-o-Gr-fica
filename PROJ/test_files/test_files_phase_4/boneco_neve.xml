@@ -1,0 +1,186 @@
+<world>
+    <window width="512" height="512" />
+    <camera> 
+        <position x="0" y="3" z="4" />
+        <lookAt x="0" y="0" z="0" />
+        <up x="0" y="1" z="0" /> <!-- opcional, use esses valores como padrão -->
+        <projection fov="60" near="1" far="1000" /> <!-- opcional, use esses valores como padrão -->
+    </camera>
+
+    <lights> 
+        <light type="direcional" posx="0" posy="10" posz="-10" dirx="0" diry="10" dirz="0" cutoff="10"/>
+    </lights>
+
+    <group> 
+        <transform> 
+            <translate x="0" y="0.75" z="0" />
+        </transform>
+        <group>
+            <transform> 
+                <scale x="0.75" y="0.75" z="0.75" />
+            </transform>
+            <models> 
+                <model file="sphere_1_20_20.3d">
+                    <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                    <color>
+                        <diffuse R="255" G="255" B="255" />
+                        <ambient R="50" G="50" B="0" />
+                        <specular R="0" G="0" B="0" />
+                        <emissive R="100" G="100" B="100" />
+                        <shininess value="0" />
+                    </color>
+                </model>
+            </models>
+        </group>
+        <group> 
+            <transform> 
+                <translate x="0" y="1" z="0" />
+            </transform>
+            <group>
+                <transform> 
+                    <scale x="0.25" y="0.25" z="0.25" />
+                </transform>
+                <models> 
+                    <model file="sphere_1_20_20.3d">
+                        <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                        <color>
+                            <diffuse R="255" G="255" B="255" />
+                            <ambient R="50" G="50" B="0" />
+                            <specular R="0" G="0" B="0" />
+                            <emissive R="100" G="100" B="100" />
+                            <shininess value="0" />
+                        </color>
+                    </model>
+                </models>
+            </group>
+            <group>
+                <transform> 
+                    <rotate angle="90" x="1" y="0" z="0" />
+                    <scale x="0.1" y="0.3" z="0.1" />
+                </transform>
+                <models> 
+                    <model file="cone_1_2_4_3.3d">
+                        <!-- gerador do cone 1 2 4 3 cone_1_2_4_3.3d -->
+                        <color>
+                            <diffuse R="200" G="200" B="0" />
+                            <ambient R="50" G="50" B="0" />
+                            <specular R="0" G="0" B="0" />
+                            <emissive R="255" G="0" B="0" />
+                            <shininess value="0" />
+                        </color>
+                    </model>
+                </models>
+            </group>
+        </group>
+    </group>
+    <group>
+        <transform>
+            <translate x="0" y="1.2" z="0.6" />
+        </transform>
+        <group>
+            <transform>
+                <scale x="0.1" y="0.1" z="0.1" />
+            </transform>
+            <models>
+                <model file="sphere_1_20_20.3d">
+                    <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                    <color>
+                        <diffuse R="255" G="0" B="255" />
+                        <ambient R="0" G="0" B="0" />
+                        <specular R="0" G="0" B="0" />
+                        <emissive R="0" G="0" B="0" />
+                        <shininess value="0" />
+                    </color>
+                </model>
+            </models>
+        </group>
+    </group>
+	<group>
+        <transform>
+            <translate x="0" y="0.9" z="0.75" />
+        </transform>
+        <group>
+            <transform>
+                <scale x="0.1" y="0.1" z="0.1" />
+            </transform>
+            <models>
+                <model file="sphere_1_20_20.3d">
+                    <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                    <color>
+                        <diffuse R="255" G="0" B="255" />
+                        <ambient R="0" G="0" B="0" />
+                        <specular R="0" G="0" B="0" />
+                        <emissive R="0" G="0" B="0" />
+                        <shininess value="0" />
+                    </color>
+                </model>
+            </models>
+        </group>
+    </group>
+	<group>
+        <transform>
+            <translate x="0" y="0.6" z="0.74" />
+        </transform>
+        <group>
+            <transform>
+                <scale x="0.1" y="0.1" z="0.1" />
+            </transform>
+            <models>
+                <model file="sphere_1_20_20.3d">
+                    <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                    <color>
+                        <diffuse R="255" G="0" B="255" />
+                        <ambient R="0" G="0" B="0" />
+                        <specular R="0" G="0" B="0" />
+                        <emissive R="0" G="0" B="0" />
+                        <shininess value="0" />
+                    </color>
+                </model>
+            </models>
+        </group>
+    </group>
+	<group>
+        <transform>
+            <translate x="-0.10" y="1.85" z="0.13" />
+        </transform>
+        <group>
+            <transform>
+                <scale x="0.1" y="0.1" z="0.1" />
+            </transform>
+            <models>
+                <model file="sphere_1_20_20.3d">
+                    <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                    <color>
+                        <diffuse R="0" G="0" B="255" />
+                        <ambient R="0" G="0" B="0" />
+                        <specular R="0" G="0" B="0" />
+                        <emissive R="0" G="0" B="50" />
+                        <shininess value="0" />
+                    </color>
+                </model>
+            </models>
+        </group>
+    </group>
+	<group>
+        <transform>
+            <translate x="0.10" y="1.85" z="0.13" />
+        </transform>
+        <group>
+            <transform>
+                <scale x="0.1" y="0.1" z="0.1" />
+            </transform>
+            <models>
+                <model file="sphere_1_20_20.3d">
+                    <!-- gerador da esfera 1 20 20 sphere_1_20_20.3d -->
+                    <color>
+                        <diffuse R="0" G="0" B="255" />
+                        <ambient R="0" G="0" B="0" />
+                        <specular R="0" G="0" B="0" />
+                        <emissive R="0" G="0" B="50" />
+                        <shininess value="0" />
+                    </color>
+                </model>
+            </models>
+        </group>
+    </group>
+</world>

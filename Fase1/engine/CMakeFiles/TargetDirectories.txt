@@ -1,0 +1,3 @@
+C:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine/CMakeFiles/projeto.dir
+C:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine/CMakeFiles/ALL_BUILD.dir
+C:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine/CMakeFiles/ZERO_CHECK.dir

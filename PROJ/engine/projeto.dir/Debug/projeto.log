@@ -1,0 +1,4 @@
+﻿  1>Building Custom Rule C:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine/CMakeLists.txt
+  engine.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdlib.h(56,48): error C2381: 'exit': redefinição; 'noreturn' difere
+C:\Users\tiag9\OneDrive\Ambiente de Trabalho\Documentos\Tiago\3º ano\CG\toolkits\glut\GL/glut.h(146,29): message : consulte a declaração de 'exit'

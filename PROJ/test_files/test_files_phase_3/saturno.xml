@@ -1,0 +1,26 @@
+<world>
+    <window width="1420" height="760" />
+    <camera> 
+        <position x="30" y="30" z="30" />
+        <lookAt x="0" y="0" z="0" />
+        <up x="0" y="1" z="0" /> <!-- optional, use these values as default-->
+        <projection fov="60" near="1" far="1000" /> <!-- optional, use these values as default-->
+    </camera>
+    <group>                                                        <!-- SATURNO -->
+            <transform>
+                <scale x="8" y="8" z="8" />
+                <rotate time="2.0" x="0" y="1" z="0"/>
+            </transform>
+            <models> 
+                <model file="sphere_1_8_8.3d" /> <!-- generator sphere 1 8 8 sphere_1_8_8.3d -->
+            </models>
+            <group>
+                <transform>
+                    <scale x="0.125" y="0.125" z="0.125" />
+                </transform>
+                <models> 
+                    <model file="torus_11_9_15_8.3d" /> <!-- generator torus 11 9 15 8 torus_11_9_15_8.3d -->
+                </models>
+            </group>
+        </group>
+</world>

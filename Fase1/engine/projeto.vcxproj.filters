@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tiag9\OneDrive\Ambiente de Trabalho\Documentos\Tiago\3º ano\CG\PROJ\engine\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tiag9\OneDrive\Ambiente de Trabalho\Documentos\Tiago\3º ano\CG\PROJ\engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{459706B5-3D7C-3336-8987-B0FCEFC99DF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

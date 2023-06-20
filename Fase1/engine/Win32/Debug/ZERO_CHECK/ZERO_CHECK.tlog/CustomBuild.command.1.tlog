@@ -1,0 +1,10 @@
+^C:\USERS\TIAG9\ONEDRIVE\AMBIENTE DE TRABALHO\DOCUMENTOS\TIAGO\3º ANO\CG\PROJ\ENGINE\CMAKEFILES\9AE1A5C57CA302736F6AAD231F5E1F42\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine" "-BC:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/tiag9/OneDrive/Ambiente de Trabalho/Documentos/Tiago/3º ano/CG/PROJ/engine/projeto.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

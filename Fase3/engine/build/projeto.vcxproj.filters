@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ferna\OneDrive\Ambiente de Trabalho\Uni(22-23)\CG\Fase3\engine\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ferna\OneDrive\Ambiente de Trabalho\Uni(22-23)\CG\Fase3\engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{45AAB27C-0134-33C5-B933-82072643F9CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
