@@ -1,1 +1,4 @@
-*c linguist-detectable=true
+*c linguist-detectable=false
+*cmake linguist-detectable=false
+*roof linguist-detectable=false
+*c++ linguist-detectable=true
