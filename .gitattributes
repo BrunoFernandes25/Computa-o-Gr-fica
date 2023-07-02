@@ -1,3 +1,7 @@
 *roff linguist-detectable=false
 *c++ linguist-detectable=true
 *Roff linguist-detectable=false
+
+specific-file.5ms
+*.3d
+specific-folder/*
